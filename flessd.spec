@@ -1,5 +1,5 @@
 Summary:	FLESSD - Free Library for Effects and Synthetic Sample Dynamics
-Summary(pl):	FLESSD - wolnodostêpna biblioteka do efektów i d¼wiêku syntetycznego
+Summary(pl.UTF-8):   FLESSD - wolnodostÄ™pna biblioteka do efektÃ³w i dÅºwiÄ™ku syntetycznego
 Name:		flessd
 Version:	0.0
 Release:	1
@@ -17,36 +17,36 @@ Unfortunately FMOD is not free, and its author is extremely reluctant
 to opensourcing it. Moreover, it only supports a limited number of
 platforms. FLESSD aims to fix these two problems.
 
-%description -l pl
-FLESSD to wolnodostêpna reimplementacja biblioteki FMOD
+%description -l pl.UTF-8
+FLESSD to wolnodostÄ™pna reimplementacja biblioteki FMOD
 (http://www.fmod.org/) - popularnej biblioteki do odtwarzania muzyki i
-efektów d¼wiêkowych. Niestety FMOD nie jest wolnodostêpn± bibliotek±,
-a autor jest bardzo oporny, je¶li chodzi o uwolnienie ¼róde³. Co
-wiêcej FMOD obs³uguje tylko bardzo ograniczon± liczbê platform. Celem
-FLESSD jest usuniêcie tych problemów.
+efektÃ³w dÅºwiÄ™kowych. Niestety FMOD nie jest wolnodostÄ™pnÄ… bibliotekÄ…,
+a autor jest bardzo oporny, jeÅ›li chodzi o uwolnienie ÅºrÃ³deÅ‚. Co
+wiÄ™cej FMOD obsÅ‚uguje tylko bardzo ograniczonÄ… liczbÄ™ platform. Celem
+FLESSD jest usuniÄ™cie tych problemÃ³w.
 
 %package devel
 Summary:	Header files for FLESSD library
-Summary(pl):	Pliki nag³ówkowe biblioteki FLESSD
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki FLESSD
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for FLESSD library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki FLESSD.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki FLESSD.
 
 %package static
 Summary:	Static FLESSD library
-Summary(pl):	Statyczna biblioteka FLESSD
+Summary(pl.UTF-8):   Statyczna biblioteka FLESSD
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static FLESSD library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka FLESSD.
 
 %prep
