@@ -1,5 +1,5 @@
 Summary:	FLESSD - Free Library for Effects and Synthetic Sample Dynamics
-Summary(pl.UTF-8):   FLESSD - wolnodostępna biblioteka do efektów i dźwięku syntetycznego
+Summary(pl.UTF-8):	FLESSD - wolnodostępna biblioteka do efektów i dźwięku syntetycznego
 Name:		flessd
 Version:	0.0
 Release:	1
@@ -27,7 +27,7 @@ FLESSD jest usunięcie tych problemów.
 
 %package devel
 Summary:	Header files for FLESSD library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki FLESSD
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki FLESSD
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -39,7 +39,7 @@ Pliki nagłówkowe biblioteki FLESSD.
 
 %package static
 Summary:	Static FLESSD library
-Summary(pl.UTF-8):   Statyczna biblioteka FLESSD
+Summary(pl.UTF-8):	Statyczna biblioteka FLESSD
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
