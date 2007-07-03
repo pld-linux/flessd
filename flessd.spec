@@ -8,6 +8,7 @@ Group:		Libraries
 Source0:	http://sam.zoy.org/flessd/%{name}-%{version}.tar.gz
 # Source0-md5:	ec3ecdc01a51eebbb7171398f441afa0
 URL:		http://sam.zoy.org/flessd/
+BuildRequires:	SDL_sound-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
